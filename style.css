@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    
+    margin: auto;
 }
 ul[class="u1"]{
     list-style-type: none;
@@ -51,12 +51,13 @@ img{
 }
 .f{
     font-size: 25px;
+    margin-top: 40px;
 }
 input{
     font-size: 20px;
 }
 input[type="submit"]{
-    margin-top: 5px;
+    margin-top: 15px;
     
 }
 
@@ -65,4 +66,20 @@ input[type="submit"]{
   margin-right: 100px;
   
   font-size: 17px;
+}
+
+.p2 a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    border-color: black;
+    display: inline-block;
+    background-color: rgb(246, 245, 245);
+    
+}
+a :hover [class="o"]{
+    background-color: rgb(235, 16, 16); 
 }
