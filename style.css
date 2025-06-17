@@ -83,3 +83,14 @@ input[type="submit"]{
 a :hover [class="o"]{
     background-color: rgb(235, 16, 16); 
 }
+.a{
+    display: inline;
+}
+.l{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.i{
+    background-color: rgb(233, 19, 19);
+}
