@@ -20,15 +20,25 @@
         <li class="s"><a href="sign.in.html">Sign in</a></li>
         <li class="s"><a href="sign.html">Sign up</a></li>
     </ul>
-    <form class="f" action="/action_page.php">
-        <label for="fname">Login</label><br>
-        <input type="text" placeholder="login kiriting" required><br>
+    <form >
+        <label for="fname">Foydalanuvchi nomi</label><br>
+        <input class="i1" type="text" placeholder="Foydalanuvchi nomi" required><br>
+        
+        <label for="fname">Ism</label><br>
+        <input class="i2" type="text" placeholder="Ism" required><br>
+        <label for="fname">Familya</label><br>
+        <input class="i3" type="text" placeholder="Familya" required><br>
+         <label class="l" for="country">Country</label>
+        <select class="c"  name="country">
+        <option value="ENGLISH">ENGLISH</option>
+        <option value="RUSSIAN">RUSSIAN</option>
+        <option value="UZBEK">UZBEK</option>
+        </select><br>
         <label for="lname">Parol</label><br>
         <input type="password" placeholder="Parolni kiriting" required><br>
-        <p class="p1"><a href="sign.in.html">parolni unutdingizmi</a></p>
-        <input type="submit"  value="Kirish">
+         <input type="submit"  value="Kirish">
     </form>
 
-    <p class="p">matn</p>
+     <p class="p">matn</p>
 </body>
 </html>
