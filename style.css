@@ -1,10 +1,10 @@
 body{
     text-align: center;
     margin: auto;
-    background-image: url(359ca16c6bc8a116f23693401535d41f.jpg);
-    background-position: left top;
-    background-repeat: repeat;
-    background-size: 120px 80px;
+    background-image: url(nuqta-rasm.png),url(oq-rasm.jpg);
+    background-position: left bottom , left top;
+    background-repeat: repeat-x, repeat;
+    background-size: 320px 200px,120px 80px;
 }
 ul{
     list-style-type: none;
@@ -32,18 +32,10 @@ ul >li:active {
 }
 .p{
     margin-top: 1000px;
+    color: rgba(235, 230, 230, 0);
 }
 
-.r1{
-    margin-top: 80px;
-}
-.r2{
-    margin-top: 50px;
-}
-.r3{
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
+
 .s{
     float: right;
     background-color: rgb(11, 163, 11);
@@ -59,6 +51,7 @@ input{
 }
 input[type="submit"]{
     margin-top: 15px;
+    margin-bottom: 15px;
     width: 100px;
 }
 input[type="text"]:focus {
@@ -112,8 +105,9 @@ ul[class="u2"]{
 list-style-type: none;
 background-color: white;
 margin-left: 800px;
-margin-right: 800px;
+margin-right: 925px;
 font-size: 20px;
+padding: 2px;
 
 }
 .a{
@@ -141,6 +135,7 @@ font-size: 20px;
     width: 300px;
     height: 300px;
   }
+  
   .matn {
     
     display: grid;
@@ -157,17 +152,24 @@ font-size: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
+    
+
   }
+  .Matn:hover{
+    box-shadow: 2px 3px 5px;
+  
+  }
+  
   .m {
     background-color: rgb(40, 224, 224);
-    color: white;
+    color: rgb(176, 2, 2);
     font-size: 18px;
   }
 .img{
     width: 100%;
     height: 200px;
-    margin-top: 0;
-    opacity: 0.5;
+    margin-top: 0%;
+
 }
 .n{
     padding-top: 20px;
@@ -176,5 +178,11 @@ font-size: 20px;
     width: 100%;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxP4qgRSV5fFRBOAji1IOKX5A4VyQStOoTew&s);
     width: 100%;
+
+}
+
+li:hover ul li a:link {
+    display: block;
+    
 }
 
