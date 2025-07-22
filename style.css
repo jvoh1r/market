@@ -17,6 +17,7 @@ ul{
 li{
     float: left;
 }
+
 ul > li a{
     display: block;
     color: white;
@@ -24,15 +25,20 @@ ul > li a{
     padding: 18px 25px;
     text-decoration: none;
     font-size: 20px;
+    transition: 0.4s ease;
 }
 ul >li:hover {
-    background-color: rgb(243, 16, 16);
+    background-color: rgba(60, 122, 238, 0.494);      
+    
+   
 }
 ul >li:active {
-    background-color: black;
+    background-color: rgba(60, 122, 238, 0.574);
+    transform: scale(.95);
+    color: rgb(184, 183, 183);
 }
 .p{
-    margin-top: 1000px;
+    margin-top: 50px;
     color: rgba(235, 230, 230, 0);
 }
 
@@ -146,6 +152,7 @@ select[class="c"]:focus {
   .Matn {
     border: 2px solid;
     width: 300px;
+    height: 445px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -185,9 +192,7 @@ select[class="c"]:focus {
 li:hover ul li a:link {
     display: block;
 
-    
 }
-
 
 
 
@@ -197,9 +202,9 @@ li:hover ul li a:link {
 background-color: green;
 color: white;
 border: none;
-padding: 17px 30px;
-font-size: 16px;
-border-radius: 8px;
+padding: 20px 40px;
+font-size: 14px;
+border-radius: 6px;
 cursor: pointer;
 transition: all 0.4s ease;
 position: relative;
@@ -209,8 +214,8 @@ overflow: hidden;
 
 .animated-btn:focus {
 border-radius: 50%;
-width: 60px;
-height: 60px;
+width: 55px;
+height: 55px;
 padding: 0;
 
 }
@@ -219,7 +224,7 @@ position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%,-50%);
-transition: opacity 0.3s ease;
+transition: opacity 0.1s ease;
 
 }
 .submit-text {
@@ -250,12 +255,64 @@ opacity: 1;
 }
 .text {
   color: rgb(247, 247, 247);
-  background-color: rgba(0, 0, 0, 0.491);
- padding: 4px;
+  background-color: rgba(0, 0, 0, 0.603);
+  padding: 4px;
   font-size: 20px;
   position: absolute;
   top: 0%;
   left: 0%;
  
  
+}
+
+
+
+button:active {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+padding: 0;
+font-size: 0;
+
+}
+
+button:active::after {
+content: "✓";
+font-size: 24px;
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.pagination {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 800px;
+  background-color: white;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: rgb(186, 186, 186);
+}
+
+.pagination a:hover{
+  background-color: #b6b4b4;
+  border-radius: 5px;
+}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
