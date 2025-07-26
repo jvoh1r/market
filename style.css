@@ -28,20 +28,23 @@ ul > li a{
     transition: 0.4s ease;
 }
 ul >li:hover {
-    background-color: rgba(60, 122, 238, 0.494);      
+    background-color: rgba(80, 141, 255, 0.655);      
     
    
 }
 ul >li:active {
     background-color: rgba(60, 122, 238, 0.574);
     transform: scale(.95);
-    color: rgb(184, 183, 183);
+    color: rgb(201, 200, 200);     
 }
 .p{
     margin-top: 50px;
     color: rgba(235, 230, 230, 0);
 }
-
+.b{
+  margin-top: 1000px;
+  color: rgba(0, 0, 0, 0);
+}
 
 .s{
     float: right;
@@ -316,3 +319,4 @@ transform: translate(-50%, -50%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
